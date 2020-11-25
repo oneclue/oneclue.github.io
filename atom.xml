@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://oneclue.top/"/>
+  <updated>2020-11-24T07:42:55.235Z</updated>
+  <id>http://oneclue.top/</id>
+  
+  <author>
+    <name>oneclue</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://oneclue.top/2020/08/23/hello-world/"/>
+    <id>http://oneclue.top/2020/08/23/hello-world/</id>
+    <published>2020-08-23T10:42:04.685Z</published>
+    <updated>2020-11-24T07:42:55.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+      <category term="test" scheme="http://oneclue.top/categories/test/"/>
+    
+    
+      <category term="hello" scheme="http://oneclue.top/tags/hello/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows下nvm的安装及基本使用</title>
+    <link href="http://oneclue.top/2020/05/28/win10%E4%B8%8B%E5%AE%89%E8%A3%85nvm%E5%8F%8A%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
+    <id>http://oneclue.top/2020/05/28/win10%E4%B8%8B%E5%AE%89%E8%A3%85nvm%E5%8F%8A%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-05-28T05:58:24.000Z</published>
+    <updated>2020-11-24T07:48:31.838Z</updated>
+    
+    <content type="html"><![CDATA[<p> &emsp;nvm（node version management）是 node 版本管理工具，其主要功能是可以在本地安装多个版本的 nodejs，且可切换版本。如果读者使用的是 macOS 或 linux 可以参考 <a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener">nvm-sh/<em>nvm</em></a> 项目，如果是 windows 的话则参考 <a href="https://github.com/coreybutler/nvm-windows" target="_blank" rel="noopener">coreybutler/<em>nvm</em>-windows</a> 项目。这是两个完全独立的项目。由于笔者本人使用 windows，所以这里下载安装以后者为例。</p><h4 id="nvm-windows-下载和安装"><a href="#nvm-windows-下载和安装" class="headerlink" title="nvm-windows 下载和安装"></a>nvm-windows 下载和安装</h4><p>github 地址：<a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener">https://github.com/coreybutler/nvm-windows/releases</a></p><img src="https://i.loli.net/2020/05/26/Pa49gouMUVAIDjx.png" alt="nvm-w1.png" style="zoom:67%;" /><p> &emsp;下载 nvm-noinstall.zip 这是免安装版本，下载完后解压到本地的一个目录，读者可根据自己的安装目录来决定自己的安装位置，解压后看到 elevate.cmd、elevate.vbs、install.cmd、LICENSE、nvm.exe 。这时我们需要配置一下环境变量</p><img src="https://i.loli.net/2020/05/26/4P9zFirSEq6Ok5X.png" alt="nvm-w2.png" style="zoom: 67%;" /><p> &emsp;如果是添加系统级的环境变量添加完后需要重启一下，如果是用户级的话就不用。我们要设置两个环境变量一个是 NVM_HOME 指向 nvm 安装的目录，另一个是 NVM_SYMLINK 指向一个快捷方式如下图，我们在切换 node 版本时，目标会自动的改变为对应信息。</p><img src="https://i.loli.net/2020/05/26/rUn4kmL9zjflQWw.png" alt="nvm-w3.png" style="zoom:67%;" /><p>&emsp;配置好环境变量后，到 nvm 安装目录下新建一个 settings.txt 文本文件</p><p><img src="https://i.loli.net/2020/05/26/7DazRkcMCULv8sF.png" alt="nvm-w4.png"></p><p>&emsp;然后打开并编辑 setting.txt</p><p><img src="https://i.loli.net/2020/05/26/c58PMS1mHEsg9RU.png" alt="nvm-w6.png"></p><p>&emsp;打开终端工具输入 nvm 出现 nvm 的相关信息，这样就安装成功了。</p><p><img src="https://i.loli.net/2020/05/26/8r7gkKfS5JmVvd1.png" alt="nvm-w7.png"></p><h4 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">nvm list available<span class="comment">// 列出所有可以安装的node版本号</span></span><br><span class="line">nvm install xxx<span class="comment">// 安装指定版本号的node</span></span><br><span class="line">nvm list/ls<span class="comment">// 列出所有已经安装的node版本</span></span><br><span class="line">nvm usexxx<span class="comment">// 切换node的版本</span></span><br></pre></td></tr></table></figure><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</span><br><span class="line">arr.includes(<span class="number">1</span>);</span><br><span class="line"><span class="keyword">const</span> df = <span class="function"><span class="params">item</span> =&gt;</span> item * <span class="number">2</span>;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt; &amp;emsp;nvm（node version management）是 node 版本管理工具，其主要功能是可以在本地安装多个版本的 nodejs，且可切换版本。如果读者使用的是 macOS 或 linux 可以参考 &lt;a href=&quot;https://github.com
+      
+    
+    </summary>
+    
+    
+      <category term="other" scheme="http://oneclue.top/categories/other/"/>
+    
+    
+  </entry>
+  
+</feed>
